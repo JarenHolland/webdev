@@ -1,0 +1,33 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.TopBar{
+    background-color:black;
+    text-align:center;
+    font-size:25px;
+    color:white;
+    padding:15px;
+}
+
+.MainContent{
+    background-image: url("pictoral.png");
+    height:100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.MiddleSection{
+    text-align:center;
+    color:white;
+    margin-top:150px;
+}
+
+.BigFont{
+    font-size:60px;
+    margin:0px;
+}
+
+.SubFont{
+    font-size:20px;
+}
