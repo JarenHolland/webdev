@@ -1,0 +1,49 @@
+.contact{
+    font-size:30px;
+    text-align:center;
+}
+
+.MainHead{
+    border:1px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    width:400px;
+    height:400px;
+    font-family:"Indie Flower";
+}
+
+.firstName{
+    text-align: center;
+    padding: 5px;
+    margin: 10px 5px; 
+    font-size:20px;  
+}
+
+.lastName{
+    text-align: center;
+    padding: 5px;
+    margin: 10px 5px;
+    font-size:20px;  
+}
+
+.email{
+    text-align: center;
+    padding: 5px;
+    margin: 10px 5px;
+    font-size:20px;  
+}
+
+.submit{
+    width:95%;
+    margin: 20px 5px 20px 5px;
+    padding: 5px;
+}
+
+#submit{
+    text-align: center;
+    width:100%;
+    padding:0px;
+}
