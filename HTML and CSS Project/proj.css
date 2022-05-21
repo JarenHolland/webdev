@@ -1,0 +1,132 @@
+.imagesecond{
+    width:600px;
+    height:500px;
+}
+
+.thirdImage{
+    width:600px;
+    height:500px;
+}
+
+.imagefourth{
+    width:600px;
+    height:500px;
+}
+
+.Wrapper{
+    display:flex;
+    flex-direction:column;
+}
+
+.NavBar{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    border-bottom:2px solid white;
+    margin:10px 40px 0px 40px;
+}
+
+#firstPage{
+    display:flex;
+    flex-direction:column;
+    background-repeat:no-repeat;
+    width:100%;
+    height:1080px;
+    filter:brightness(100%);
+    margin-top:-1080px;
+}
+
+#secondPage{
+    display:flex;
+    flex-direction:row;
+    background-color:black;
+}
+
+#thirdPage{
+    display:flex;
+    flex-direction:row;
+    background-color:black;
+}
+
+#fourthPage{
+    display:flex;
+    flex-direction:row;
+    background-color:slategray;
+}
+
+body{
+    font-family:"Raleway";
+    color:white;
+}
+
+#sitename{
+    filter:brightness(100%);
+    display:flex;
+    flex-direction:row;
+    align-items:flex-end;
+}
+
+#menuitems{
+    filter:brightness(100%);
+    display:flex;
+    flex-direction:row;
+    align-self:flex-end;
+    height: 40px;
+}
+
+.firstContent h1{
+    font-size:80px;
+    font-weight:bold;
+    border-bottom:2px solid white;
+    margin:100px 42% 0px 42%;
+    text-align:center;
+    filter:brightness(100%);
+}
+
+.firstContent h2{
+    font-size:50px;
+    font-weight:normal;
+    text-align:center;
+    filter:brightness(100%);
+}
+
+.firstimage{
+    width:100%;
+    height:1080px;
+    filter:brightness(50%);
+}
+
+.secondContent,
+.thirdContent,
+.fourthContent{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:0px 60px;
+}
+
+.secondContent h3,
+.thirdContent h3,
+.fourthContent h3{
+    font-size: 40px;
+    font-weight:bold;
+}
+
+.secondContent p,
+.thirdContent p,
+.fourthContent p{
+    font-size:20px;
+}
+
+#menuitems a{
+    padding-left:15px;
+    font-size:20px;
+}
+
+#sitename p{
+    display:flex;
+    flex-direction:row;
+    align-self:flex-end;
+    font-size:25px;
+    font-weight:bold;
+}
